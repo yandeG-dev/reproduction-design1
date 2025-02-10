@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(67, 224, 169), rgb(100, 240, 245));
+    z-index: 100;
+}
+.center{
+    text-align: center;
+    padding-top: 40px;
+}
+.container{
+    z-index: 1000;
+    /* display: flex; */
+    padding: 70px 45px;
+}
+.navb{
+    background: white;
+    padding: 35px;
+}
+nav ul{
+    position: absolute;
+    right: 20px;
+   
+}
+nav{
+   position: relative; 
+}
+nav li{
+    display: inline;
+  
+    
+}
+nav li a{
+    text-decoration: none;
+    color: red;
+    font-size: larger;
+    padding: 20px;
+    font-weight: bold;
+}
+.background{
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+
+}
+.background > form{
+    position: absolute;
+    top:45%;
+    bottom: 45%;
+    right: 20%;
+    left: 20%;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 15px;
+  padding: 50px 40px;
+  margin-left: 10%;
+
+}
+.food{
+    background: white;
+    height: 500px;
+}
+.gridd img{
+width: 75%;
+height: 300px;
+border-radius: 20px;
+background: url('images/image1.jpg'),linear-gradient(black,transparent);
+}
+.gridd p{
+    margin-top: -40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.menu{
+    background-color: rgb(231, 230, 230);
+    height: 750px;
+}
+.gridMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 150px 150px 150px; 
+    row-gap: 40px;
+    column-gap: 30px;
+    padding-top: 40px;
+   
+  
+}
+.gridMenu img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.menu-item{
+    display: flex;
+    gap: 20px;
+    line-height: 10px;
+    background-color: white;
+padding: 30px 50px;
+
+}
+.gridMenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 101, 101);
+    padding: 5px;
+    border-radius: 5px
+}
+.gridMenu a:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+.contact{
+background-color: white;
+height: 100px;
+display: flex;
+flex-direction: row;
+gap: 40px;
+justify-content: center;
+
+}
+.contact div{
+    padding: 40px;
+}
