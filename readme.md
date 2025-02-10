@@ -1,0 +1,3 @@
+Dans ce mini projet, j'ai voulu reproduire une page avec du html et css et j'ai inclus bootstrap uniquement pour le formulaire de recherche.
+Le but c'etait d'éviter de perdre complètement la main à propos de la manipulation du html et du css notamment le positionnement, les alignements, le display, le z-index ect...
+J'ai utilisé flaticon pour les icons.

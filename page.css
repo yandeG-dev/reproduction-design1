@@ -1,16 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgb(67, 224, 169), rgb(100, 240, 245));
-    z-index: 100;
+    background: linear-gradient(rgb(67, 224, 169), rgb(100, 240, 245));/* pour le degradé en arriere plan */
+    z-index: 100;/*  attribuer une valeur a z-index */
 }
 .center{
     text-align: center;
     padding-top: 40px;
 }
 .container{
-    z-index: 1000;
-    /* display: flex; */
+    z-index: 1000;/* attribuer un valeur a z-index plus elevee pour que container soit au dessus de l'arriere plan degradee */
     padding: 70px 45px;
 }
 .navb{
