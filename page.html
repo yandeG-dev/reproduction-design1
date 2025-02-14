@@ -21,19 +21,33 @@
         <h2><strong>Complete web design in 2 hours</strong></h2>
         <h3>Restaurant Food Order Theme</h3>
     </div>
-    <div class="container">  <!-- pour le contenu de la page enclavéé dans le body -->
+    <div class="Bigcontainer">  <!-- pour le contenu de la page enclavéé dans le body -->
    <!-- premiere section  -->
         <header>
-            <div class="navb">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Foods</a></li>
-                        <li><a href="#">Contact</a></li>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+              
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Foods</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true">Contact</a>
+                      </li>
                     </ul>
-                </nav>
-            </div>
+                  </div>
+                </div>
+              </nav>
             <div class="background">
 
                 <form class="d-flex" role="search">
@@ -129,7 +143,7 @@
                 <p style="color: red; font-weight: bold;">See All Foods</p>
             </div>
         </section>
-     <!-- section contact -->
+                           <!-- section contact -->
         <section class="contact">
             <div><i class="fa-brands fa-facebook fa-2xl"></i></div>
             <div><i class="fa-brands fa-square-instagram fa-2xl"></i></div>
@@ -137,7 +151,6 @@
         </section>
     </div>
    
-    </div>
 </body>
 
 </html>

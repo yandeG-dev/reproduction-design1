@@ -2,39 +2,34 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(rgb(67, 224, 169), rgb(100, 240, 245));/* pour le degradé en arriere plan */
-    z-index: 100;/*  attribuer une valeur a z-index */
+    
 }
 .center{
     text-align: center;
     padding-top: 40px;
 }
-.container{
-    z-index: 1000;/* attribuer un valeur a z-index plus elevee pour que container soit au dessus de l'arriere plan degradee */
-    padding: 70px 45px;
-}
-.navb{
-    background: white;
-    padding: 35px;
-}
-nav ul{
-    position: absolute;
-    right: 20px;
+.Bigcontainer{
    
+    padding: 70px 60px;
 }
-nav{
-   position: relative; 
-}
-nav li{
-    display: inline;
-  
+.navbar{
+    background: white;
+    padding: 30px;
+    position: relative;
     
 }
-nav li a{
+
+ .navbar-nav{
+position: absolute;
+right: 30px;
+ }   
+.nav-link{
     text-decoration: none;
     color: red;
     font-size: larger;
     padding: 20px;
     font-weight: bold;
+    
 }
 .background{
     background-image: url('images/background.png');
@@ -62,7 +57,7 @@ nav li a{
 }
 .food{
     background: white;
-    height: 500px;
+
 }
 .gridd img{
 width: 75%;
@@ -78,15 +73,17 @@ background: url('images/image1.jpg'),linear-gradient(black,transparent);
 }
 .menu{
     background-color: rgb(231, 230, 230);
-    height: 750px;
+    padding: 50px 40px;
+
 }
 .gridMenu{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 150px 150px 150px; 
+    grid-template-rows: 180px 180px 180px; 
     row-gap: 40px;
     column-gap: 30px;
-    padding-top: 40px;
+    padding-top: 20px;
+    margin: 35px;
    
   
 }
@@ -100,7 +97,8 @@ background: url('images/image1.jpg'),linear-gradient(black,transparent);
     gap: 20px;
     line-height: 10px;
     background-color: white;
-padding: 30px 50px;
+padding: 30px 20px;
+
 
 }
 .gridMenu a{
@@ -118,13 +116,44 @@ padding: 30px 50px;
 }
 .contact{
 background-color: white;
-height: 100px;
 display: flex;
 flex-direction: row;
-gap: 40px;
+gap: 20px;
 justify-content: center;
 
 }
 .contact div{
     padding: 40px;
+}
+@media screen and (max-width:1174px) {
+    .gridMenu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px; 
+        row-gap: 40px;
+        column-gap: 30px;
+        padding-top: 40px;
+        height: 1000pxpx;
+    }
+}
+@media screen and (max-width:650px){
+   
+    .gridd{
+        display: flex;
+      flex-direction: column;
+    
+    }
+    .gridMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-item {
+        flex-direction: column; /* Empile l'image et le texte */
+        align-items: center; /* Centre le texte et l’image */
+        text-align: center;
+    }
+.contact{
+ display: flex;
+ flex-direction: column;   
+}
 }
