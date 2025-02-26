@@ -1,3 +1,3 @@
-Dans ce mini projet, j'ai voulu reproduire une page avec du html et css et j'ai inclus bootstrap uniquement pour le formulaire de recherche et pour avoir un nav bar responsive.
-Le but c'etait d'éviter de perdre complètement la main à la manipulation du html et du css notamment le positionnement, les alignements, le display, ect...
-J'ai utilisé flaticon pour les icons.
+Dans ce mini projet, j'ai voulu reproduire une page simple avec du html et du css et j'ai inclus bootstrap uniquement pour le formulaire de recherche et pour avoir un nav bar responsive.
+Le but c'etait d'éviter de perdre complètement la main en html et la manipulation du css notamment le positionnement, les alignements, le display, ect...
+J'ai utilisé font awesome pour les icons.
